@@ -13,6 +13,10 @@
 		98B9F5AB2B12B7BE00F17B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B9F5A92B12B7BE00F17B6F /* Main.storyboard */; };
 		98B9F5AD2B12B7C300F17B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B9F5AC2B12B7C300F17B6F /* Assets.xcassets */; };
 		98B9F5B02B12B7C300F17B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B9F5AE2B12B7C300F17B6F /* LaunchScreen.storyboard */; };
+		98B9F5B92B12B85100F17B6F /* BDMundo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98B9F5B72B12B85100F17B6F /* BDMundo.xcdatamodeld */; };
+		98B9F5BB2B12B99100F17B6F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9F5BA2B12B99100F17B6F /* CoreDataManager.swift */; };
+		98B9F5BD2B12C16400F17B6F /* PaisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9F5BC2B12C16400F17B6F /* PaisesViewController.swift */; };
+		98B9F5BF2B12C27A00F17B6F /* PaisViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9F5BE2B12C27A00F17B6F /* PaisViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		98B9F5AC2B12B7C300F17B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B9F5AF2B12B7C300F17B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B9F5B12B12B7C300F17B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B9F5B82B12B85100F17B6F /* BDMundo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BDMundo.xcdatamodel; sourceTree = "<group>"; };
+		98B9F5BA2B12B99100F17B6F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		98B9F5BC2B12C16400F17B6F /* PaisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisesViewController.swift; sourceTree = "<group>"; };
+		98B9F5BE2B12C27A00F17B6F /* PaisViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				98B9F5AC2B12B7C300F17B6F /* Assets.xcassets */,
 				98B9F5AE2B12B7C300F17B6F /* LaunchScreen.storyboard */,
 				98B9F5B12B12B7C300F17B6F /* Info.plist */,
+				98B9F5B72B12B85100F17B6F /* BDMundo.xcdatamodeld */,
+				98B9F5BA2B12B99100F17B6F /* CoreDataManager.swift */,
+				98B9F5BC2B12C16400F17B6F /* PaisesViewController.swift */,
+				98B9F5BE2B12C27A00F17B6F /* PaisViewCell.swift */,
 			);
 			path = Sem11;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B9F5BF2B12C27A00F17B6F /* PaisViewCell.swift in Sources */,
 				98B9F5A82B12B7BE00F17B6F /* ViewController.swift in Sources */,
+				98B9F5BD2B12C16400F17B6F /* PaisesViewController.swift in Sources */,
+				98B9F5B92B12B85100F17B6F /* BDMundo.xcdatamodeld in Sources */,
 				98B9F5A42B12B7BE00F17B6F /* AppDelegate.swift in Sources */,
+				98B9F5BB2B12B99100F17B6F /* CoreDataManager.swift in Sources */,
 				98B9F5A62B12B7BE00F17B6F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +374,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98B9F5B72B12B85100F17B6F /* BDMundo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98B9F5B82B12B85100F17B6F /* BDMundo.xcdatamodel */,
+			);
+			currentVersion = 98B9F5B82B12B85100F17B6F /* BDMundo.xcdatamodel */;
+			path = BDMundo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 98B9F5982B12B7BD00F17B6F /* Project object */;
 }
